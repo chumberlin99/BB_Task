@@ -1,0 +1,70 @@
+.body {
+  background: #000000;
+}
+.headerTodo {
+  color: #ffa600;
+  text-align: center;
+}
+.inputTag {
+  margin: 1%;
+  margin-bottom: 10px;
+}
+.inputVal {
+  background-color: #363635;
+  color: #ffffff;
+  margin: 2%;
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.btn {
+  width: 15%;
+  height: 50px;
+  background: #ffa600;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 5px;
+  box-shadow: 1px 1px gray;
+  margin-bottom: 4%;
+  margin-left: 42.5%;
+}
+
+.todoList {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  background: #363635;
+  color: #ffffff;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  flex-wrap: wrap;
+  width: 95%;
+}
+.deleteTask {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: #ff0000;
+  color: #ffffff;
+  align-items: center;
+  font-size: large;
+}
+
+.clearTask {
+  background: orangered;
+  color: #ffffff;
+  width: 15%;
+  height: 35px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 42.5%;
+}
